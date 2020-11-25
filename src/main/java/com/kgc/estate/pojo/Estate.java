@@ -16,6 +16,15 @@ public class Estate {
     private Integer area;
 
     private Date buildtime;
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public Long getId() {
         return id;

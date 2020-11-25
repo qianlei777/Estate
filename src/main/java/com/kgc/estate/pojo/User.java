@@ -1,6 +1,7 @@
 package com.kgc.estate.pojo;
 
 import java.util.Date;
+import java.util.List;
 
 public class User {
     private String cardid;
